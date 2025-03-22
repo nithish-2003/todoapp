@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="960" viewBox="0 0 720 960">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="720" height="960" fill="url(#grad)" />
+  <g fill="white" transform="translate(210, 380)">
+    <rect x="0" y="0" width="300" height="40" rx="20" ry="20" />
+    <rect x="0" y="80" width="300" height="40" rx="20" ry="20" />
+    <rect x="0" y="160" width="300" height="40" rx="20" ry="20" />
+    <rect x="0" y="240" width="150" height="40" rx="20" ry="20" />
+  </g>
+  <text x="360" y="300" font-family="Arial" font-size="48" text-anchor="middle" fill="white">To-Do List</text>
+</svg>

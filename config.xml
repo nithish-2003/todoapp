@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.todoapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>To-Do List</name>
+    <description>A simple To-Do List application with offline storage</description>
+    <author email="your-email@example.com" href="http://example.com">
+        Your Name
+    </author>
+    
+    <content src="index.html" />
+    
+    <!-- Customize preferences -->
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="FadeSplashScreenDuration" value="500" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#764ba2" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="BackgroundColor" value="0xff764ba2" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    
+    <!-- Allow network access -->
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*
